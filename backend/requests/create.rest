@@ -5,3 +5,13 @@ Content-Type: application/json
   "content": "VS Code rest client",
   "important": true
 }
+
+###
+
+PUT  http://localhost:3001/api/notes/64799cf67b8c9fc8433dd7fe
+Content-Type: application/json
+
+{
+  "content": "Changed note",
+  "important": false
+}
